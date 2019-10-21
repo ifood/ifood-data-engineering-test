@@ -57,6 +57,6 @@ You know the drill: Any language, any framework, any platform. Feel free to use 
 * Provide a docker image with a backend service. Running this container should start the necessary infrastructure to provide the endpoints
 
 
-# References:
-## Databricks Community: https://community.cloud.databricks.com
-## all-spark-notebook docker: https://hub.docker.com/r/jupyter/all-spark-notebook/
+## References:
+* Databricks Community: https://community.cloud.databricks.com
+* all-spark-notebook docker: https://hub.docker.com/r/jupyter/all-spark-notebook/
