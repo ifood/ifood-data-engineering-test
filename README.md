@@ -20,12 +20,10 @@ Implement an ETL pipeline to process distinct files and store it in a structured
 * For this test, service teams offered us a dump from restaurant and customer databases as CSV files.
   * Restaurant: s3://ifood-data-architect-test-source/restaurant.csv.gz
   * Consumer: s3://ifood-data-architect-test-source/consumer.csv.gz
-* There's also a kafka streaming order events
-  * kafka #1: a49784be7f36511e9a6b60a341003dc2-1378330561.us-east-1.elb.amazonaws.com:9092
-  * kafka #2: a4996369ef36511e9a6b60a341003dc2-1583999828.us-east-1.elb.amazonaws.com:9092
 * Analysis are done in SQL. Thus, these data must be accessed in a SQL way.
 * Data needs to be consistent, we can’t lose anything.
 * This ETL needs to be scalable.
+* Bonus: Please emulate a streaming source based on those files
 
 Feel free to use any solution to store these data.
 
